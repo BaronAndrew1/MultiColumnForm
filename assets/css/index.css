@@ -1,0 +1,100 @@
+body {
+  background-color: #47a3da;
+  font-family: "Lato", "Calibri", "Arial", "sans-serif";
+}
+
+.container,
+.grid {
+  margin: 0 auto;
+  width: 1000px;
+}
+
+.container {
+  padding-top: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.grid,
+.col-1-3,
+.col-2-3,
+.col-3-3 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.col-1-3,
+.col-2-3,
+.col-3-3 {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.col-1-3 {
+  width: 30.00%;
+}
+
+.col-2-3 {
+  width: 30.00%;
+}
+
+.col-3-3 {
+  width: 30.00%;
+}
+
+.form-header {
+  font-size: 20px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.form-header2 {
+  margin-top: 40px;
+}
+
+input {
+  width: 300px;
+  height: 45px;
+  background-color: #47a3da;
+  border: 2px solid white;
+  font-size: 20px;
+  color:white;
+}
+
+select {
+  width: 300px;
+  height: 30px;
+  border: 1px solid grey;
+  background-color: #47a3da;
+  font-size: 20px;
+  color: white;
+}
+
+/*Webkit input placeholder method taken from:
+http://stackoverflow.com/questions/2610497/change-an-inputs-html5-placeholder-color-with-css
+#26 on the page*/
+
+::-webkit-input-placeholder {
+    color: #555;
+  }
+
+textarea {
+  font-size: 20px;
+  background-color: #47a3da;
+  border: 3px solid white;
+  color: white;
+}
+
+.button {
+  display: inline-block;
+  align: center;
+  color: white;
+  background-color: steelblue;
+  padding: 15px 20px 15px 20px;
+  margin-top: 60px;
+  margin-left: 60px;
+}
+
+.button:hover {
+  background-color: dodgerblue;
+}
